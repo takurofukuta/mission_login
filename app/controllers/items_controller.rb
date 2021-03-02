@@ -18,4 +18,5 @@ class ItemsController < ApplicationController
     params.require(:item).permit(:name, :price)
   end
   
+  
 end
